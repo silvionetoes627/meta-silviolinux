@@ -1,0 +1,8 @@
+# silviolinux-aurora.wks
+# Kickstart do WIC para gerar a imagem final .ext4 com GRUB (sem imagem de fundo)
+# do SilvioLinux Minimal 1.0 (Aurora) - alvo 32-bit
+
+part /boot --source bootimg-pcbios --ondisk sda --label boot --active --align 1024
+part /    --source rootfs --ondisk sda --fstype=ext4 --label silviolinux-root --align 1024
+
+bootloader --ptable gpt --timeout=5 --append="root=/dev/sda2 rootfstype=ext4 rootwait console=ttyS0,115200"

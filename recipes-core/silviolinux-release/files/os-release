@@ -1,0 +1,12 @@
+NAME="SilvioLinux Minimal"
+VERSION="1.0 (Aurora)"
+ID=silviolinux
+ID_LIKE=poky
+VERSION_ID="1.0"
+VERSION_CODENAME=aurora
+PRETTY_NAME="SilvioLinux Minimal 1.0 (Aurora)"
+BUILD_ID="1.0-aurora"
+HOME_URL="https://silviolinux.dev.br"
+DOCUMENTATION_URL="https://docs.silviolinux.dev.br"
+SUPPORT_URL="https://suporte.silviolinux.dev.br/"
+BUG_REPORT_URL="https://gitea.silviolinux.dev.br/silviolinux/issues/"
